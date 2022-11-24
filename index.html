@@ -56,18 +56,20 @@
 		<div id="hello">Hello. I'm </div>
 		<div id="my-name">Allan Fernandez,</div>
 		<div id="my-intro">a full stack developer who is passionate in designing user-friendly websites to help businesses do more online. Let's do this!</div>
+		<a class="btn btn-info btn-lg m-5" href="#" role="button">Learn more about what I do</a>
 	</div>
 	<!-- About me End -->
 
 
 	<!-- Projects Start -->
-	<div class="container-fluid text-center p-4">
-		<h1>Projects</h1>
+	<div class="container-fluid text-center p-4" id="container-project">
+		<h1 class="mt-2">Projects</h1>
 
 		<!-- HTML project -->
-		<div class="row p-3 m-5">
-			<div class="col-sm-12 col-md-6 order-2 order-md-1">
+		<div class="row p-3 m-3">
+			<div class="col-sm-12 col-md-6 order-2 order-md-1 border rounded bg-dark">
 				<h5 class="pt-3">HTML Project</h5>
+				<p>This is where you will put your HTML-related projects in the future. Go back and edit this section. THIS IS IMPORTANT! Please remember me!</p>
 			</div>
 			<div class="col-sm-12 col-md-6 order-1 order-md-2">
 				<img width="600" src="images/html.png" class="img-fluid"/>
@@ -77,8 +79,10 @@
 
 		<!-- Bootstrap project -->
 		<div class="row p-3 m-5">
-			<div class="col-sm-12 col-md-6 order-2 order-md-2">
+			<div class="col-sm-12 col-md-6 order-2 order-md-2
+			border rounded bg-dark">
 				<h5 class="pt-3">Bootstrap Project</h5>
+				<p>This is where you will put your Bootstrap-related projects in the future. Go back and edit this section. THIS IS IMPORTANT! Please remember me!</p>
 			</div>
 			<div class="col-sm-12 col-md-6 order-1 order-md-1">
 				<img width="600" src="images/bootstrap.jpg" class="img-fluid"/>
@@ -86,8 +90,10 @@
 		</div>
 		<!-- NodeJS project -->
 		<div class="row p-3 m-5">
-			<div class="col-sm-12 col-md-6 order-2 order-md-1">
+			<div class="col-sm-12 col-md-6 order-2 order-md-1 border rounded bg-dark">
 				<h5 class="pt-3">NodeJS Project</h5>
+				<p>This is where you will put your NodeJS-related projects in the future. Go back and edit this section. THIS IS IMPORTANT! Please remember me!</p>
+				
 			</div>
 			<div class="col-sm-12 col-md-6 order-1 order-md-2">
 				<img width="600"src="images/nodeJS.png" class="img-fluid"/>
@@ -96,8 +102,9 @@
 
 		<!-- WebAPI project -->
 		<div class="row p-3 m-5">
-			<div class="col-sm-12 col-md-6 order-2 order-md-2">
+			<div class="col-sm-12 col-md-6 order-2 order-md-2 border rounded bg-dark">
 				<h5 class="pt-3">WebAPI Project</h5>
+				<p>This is where you will put your WebAPI-related projects in the future. Go back and edit this section. THIS IS IMPORTANT! Please remember me!</p>
 			</div>
 			<div class="col-sm-12 col-md-6 order-1 order-md-1">
 				<img width="600" src="images/webapi.jpg" class="bg-primary img-fluid"/>
@@ -106,8 +113,9 @@
 
 		<!-- ReactJS project -->
 		<div class="row p-3 m-5">
-			<div class="col-sm-12 col-md-6 order-2 order-md-1">
+			<div class="col-sm-12 col-md-6 order-2 order-md-1 border rounded bg-dark">
 				<h5 class="pt-3">ReactJS Project</h5>
+				<p>This is where you will put your ReactJS-related projects in the future. Go back and edit this section. THIS IS IMPORTANT! Please remember me!</p>
 			</div>
 			<div class="col-sm-12 col-md-6 order-1 order-md-2">
 				<img width="600" src="images/reactjs.png" class="img-fluid"/>
@@ -118,14 +126,82 @@
 	<!-- Projects End -->
 
 	<!-- Services Start-->
+	<div class="accordion mr-5 ml-5 mb-5 p-5" id="accordionExample">
+		<h3 class="text-center bg-none">Services Offered</h3>
+		<div class="card bg-white">
+			<div class="card-header" id="headingOne">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						Frontend Development
+					</button>
+				</h2>
+			</div>
 
+			<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+				<div class="card-body">
+				</div>
+			</div>
+		</div>
+		<div class="card bg-white">
+			<div class="card-header" id="headingTwo">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						Backend Development
+					</button>
+				</h2>
+			</div>
+			<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+				<div class="card-body">
+				</div>
+			</div>
+		</div>
+		<div class="card bg-white">
+			<div class="card-header" id="headingThree">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						Mobile App Development
+					</button>
+				</h2>
+			</div>
+			<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+				<div class="card-body">
+				</div>
+			</div>
+		</div>
+		<div class="card bg-white">
+			<div class="card-header" id="headingFour">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+						DevOps Tools
+					</button>
+				</h2>
+			</div>
+
+			<div id="collapseOne" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+				<div class="card-body">
+				</div>
+			</div>
+		</div>
+		<div class="card bg-white">
+			<div class="card-header" id="headingFive">
+				<h2 class="mb-0">
+					<button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+						Database Integration
+					</button>
+				</h2>
+			</div>
+
+			<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+				<div class="card-body">
+				</div>
+			</div>
+		</div>
+	</div>
 	
 	<!-- Services End-->
 
-
-
 	<!-- Contact Form Section Start -->
-	<div class="min-vh-100 p-5">
+	<div class="min-vh-100 p-5" id="contactme">
 
 		<h2 class="text-light text-center">Contact Me</h2>
 		<div class="row mt-3">
@@ -155,29 +231,12 @@
 					<label class="text-light">Message:</label>
 					<textarea class="form-control" id="message" rows="7"></textarea>
 				</div>
-				<button type="submit" class="btn btn-dark" data-toggle="modal"data-target="#exampleModal">Send Email</button>
+				<button type="submit" class="btn btn-info" data-toggle="modal"data-target="#exampleModal">Get in Touch!</button>
 			</form>
 		</div>
 
 	</div>
 	<!-- Contact Form Section End -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

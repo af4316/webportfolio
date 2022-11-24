@@ -44,3 +44,11 @@ body {
 .navbar-nav {
 	text-align: right;
 }
+
+#container-project {
+	background-color: #203354;
+}
+
+#contactme {
+	background-color: #296d98;
+}
