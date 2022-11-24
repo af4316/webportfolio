@@ -1,8 +1,46 @@
-body {
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color: black;
-	font-family:  Montserrat;
+}
+
+body {
+	font-family: 'Trirong', serif;
+	background-color: #023047;
+	color: ghostwhite;
+}
+
+#hello {
+	font-size: 2em;
+	color: #c0c0c0;
+}
+
+#my-name {
+	font-size: 4em;
+	margin-bottom: em;
+}
+
+#my-intro {
+	font-size: 1.5em;
+	font-style: italic;
+	margin-bottom: 5em;
+	color: #c0c0c0;
+
+}
+
+.card {
+	background-color: #023047;
+	border: none;
+	color: ghostwhite;	
+}
+
+.nav-item {
 	color: white;
+	font-size: 1.25em;
+	letter-spacing: .1em;
+	margin-right: 2em;
+}
+
+.navbar-nav {
+	text-align: right;
 }
